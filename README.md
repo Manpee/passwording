@@ -1,22 +1,12 @@
 ## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This is a password authentication App developed with Js,ejs, bootstrap & html.
 
 ## Installation
+To be able to run the code you need to install some tolls first:
 
-```bash
-$ npm install
-```
+- node 16.x - https://github.com/nvm-sh/nvm
+- yarn v1* - https://classic.yarnpkg.com/en/docs/install
+$ npm install. 
 
 ## Running the app
-
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
+- npm run start
