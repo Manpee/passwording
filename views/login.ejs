@@ -1,1 +1,23 @@
-LOGIN
+<%- include('header') -%>
+
+<div class="text-center center-div" id="login">
+<div class="container w-25 border py-5">
+   <div class="title pb-5">
+      <h2 class="font-weight-bold">Login System </h2> 
+      <span>Login for the existing user</span>
+   </div>
+
+   <form action="/login" method="POST" class="pt-5">
+      <div class=form-group>
+         <input type="email" name="email" class=" form-conrol" placeholder="email" name="email">
+         <small class="form-text text-muted text-left">Registered email address</small>
+      </div>
+      <div class="form-group">
+         <input type="password" name="password" class="form-conrol" name="password" placeholder="password">
+      </div>
+      <button type="submit" class="btn btn-success rounded-pill">submit</button>
+      <p>Don't have an account yet?<a href="/register">register</a></p>
+   </form>
+</div>
+</div>
+   <%- include('footer') -%>
