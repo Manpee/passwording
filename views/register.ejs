@@ -15,19 +15,26 @@
 
 <body>
 <!--Navbar-->
+<form action="/register" method="POST">
+<div class="container w-50 border py-5">
+  <div class="form-floating mb-3">
+    <input type="text" name="name" class="form-control" id="floatingInput" placeholder="name@example.com">
+    <label for="floatingInput">Full name</label>
+  </div>
 <div class="form-floating mb-3">
-    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+    <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
     <label for="floatingInput">Email address</label>
   </div>
   <div class="form-floating">
-    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+    <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
     <label for="floatingPassword">Password</label>
   </div>
   <div class="d-grid gap-2 col-6 mx-auto">
-    <button class="btn btn-primary" type="button">Submit</a></button>
+    <button class="btn btn-primary" type="submit">Signup</a></button>
     <p>Already have an account?<a href="/login">Login</a></p>
    
   </div>
-
+</div>
+</form>
 </body>
 </html>
